@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjay</title>
+</head>
+<body>
+    <h1>Kota Padang Panjang</h1>
+
+    <!-- Ini contoh inline -->
+    <a href="http://google.com">Gedung Padang</a>
+    <img src="RumahGadang.jpg" alt="Rumah2">
+
+    <!-- Ini contoh inline diberikan block type (div) -->
+    <div>
+        <a href="http://google.com">Gedung Padang</a>
+        <p>Logo HTML5</p>
+        <img src="RumahGadang.jpg" alt="Rumah2">
+    </div>
+
+    <!-- Kalo yg inline container = span -->
+
+    <p><b>Padang Panjang</b> adalah salah satu <a href="/wiki/Kota" title="Kota">kota</a> dengan luas wilayah terkecil yang ada di provinsi <a href="/wiki/Sumatra_Barat" title="Sumatra Barat">Sumatra Barat</a>, <a href="/wiki/Indonesia" title="Indonesia">Indonesia</a>. Kota ini memiliki julukan sebagai , dan juga dikenal sebagai Mesir van Andalas (<i>Egypte van Andalas</i>).<sup id="cite_ref-Zein_6-0" class="reference"><a href="#cite_note-Zein-6">[5]</a></sup> Sementara wilayah administratif kota ini dikelilingi oleh wilayah administratif <a href="/wiki/Kabupaten_Tanah_Datar" title="Kabupaten Tanah Datar">Kabupaten Tanah Datar</a>. Pada pertengahan tahun <a href="/wiki/2021" title="2021">2021</a>, jumlah penduduk Padang Panjang sebanyak 59.998 <a href="/wiki/Jiwa" title="Jiwa">jiwa</a>.<sup id="cite_ref-DUKCAPIL_3-1" class="reference"><a href="#cite_note-DUKCAPIL-3">[2]</a></sup>
+    </p>
+
+    <br>
+    
+    <ul>
+        <li>Lenpar <sup>23</sup></li>
+        <li>Naruto <sub>kurama</sub></li>
+    </ul>
+
+    <hr>
+
+    <ol>
+        <li>Lempar</li>
+        <li>One Piece</li>
+        <!-- ANJAY CTRL + / -->
+    </ol>
+
+    <!-- Ada yg namanya entity code, jadi diawali & diakhiri ; -->
+    <p>Healthy 2022 <sup> &copy; </sup></p>
+
+    <!-- Semantic Markup -->
+    <!-- cth: Medium serba div saat di-inspect; Klo stripe ada header, section, nav (jadi ga cuma div doang) -->
+    <!-- Itu namanya semantic code, terstruktur (section2 tertentu), search engine mudah mencari mana yg header mana yg footer, dll-->
+    <!-- bisa dicek di developer mozilla -->
+
+    <p>ADA 100 TAG YG BISA DIPAKE UTK CTH semantic: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main">disini</a></p>
+
+    <main>
+        <p><b>Padang Panjang</b> adalah salah satu <a href="/wiki/Kota" title="Kota">kota</a> dengan luas wilayah terkecil yang ada di provinsi <a href="/wiki/Sumatra_Barat" title="Sumatra Barat">Sumatra Barat</a>, <a href="/wiki/Indonesia" title="Indonesia">Indonesia</a>. Kota ini memiliki julukan sebagai , dan juga dikenal sebagai Mesir van Andalas (<i>Egypte van Andalas</i>).<sup id="cite_ref-Zein_6-0" class="reference"><a href="#cite_note-Zein-6">[5]</a></sup> Sementara wilayah administratif kota ini dikelilingi oleh wilayah administratif <a href="/wiki/Kabupaten_Tanah_Datar" title="Kabupaten Tanah Datar">Kabupaten Tanah Datar</a>. Pada pertengahan tahun <a href="/wiki/2021" title="2021">2021</a>, jumlah penduduk Padang Panjang sebanyak 59.998 <a href="/wiki/Jiwa" title="Jiwa">jiwa</a>.<sup id="cite_ref-DUKCAPIL_3-1" class="reference"><a href="#cite_note-DUKCAPIL-3">[2]</a></sup>
+        </p>
+        <p>klik disini: <nav><a href="https://wikipedia.com">INI SEMANTIC NAV</a></nav></p>
+    </main>
+
+    <section>
+        <!-- ini another div, tapi lebih dedicated lah, pembungkus juga -->
+        <p>Kawasan kota ini sebelumnya merupakan bagian dari wilayah Tuan Gadang di Batipuh
+            . Pada masa Perang Padri kawasan ini diminta Belanda sebagai salah satu pos pertahanan dan sekaligus batu loncatan untuk menundukan kaum Padri yang masih menguasai kawasan Luhak Agam. 
+            </p>
+    </section>
+    
+    <hr><br>
+
+    <article>
+        <!-- independen dan bisa digunakan ulang, kumpulan elemen yg mengandung H1-H6 dan p -->
+        <h3>Solok</h3>
+        <p>Selanjutnya Belanda membuka jalur jalan baru dari kota ini menuju Kota Padang karena lebih mudah dibandingkan 
+            melalui kawasan Kubung XIII di kabupaten Solok sekarang.</p>
+    </article>
+
+    <aside>ini catatan samping</aside>
+
+    <footer>
+        <!-- ini diluar main -->
+        Copyright: 2022
+    </footer>
+
+</body>
+</html>

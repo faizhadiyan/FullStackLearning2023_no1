@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Formulir Isian</h1>
+    <form action="/daftar" method="get">
+
+        <!-- ada perbedaan method = "get" atau method = "post", kalau "get"= semua query yg 
+            diinput ke form terlihat di URL, kalo "post" ga terlihat -->
+
+        <p>
+            <label for="name">Nama Lengkap</label>
+            <input type="text" placeholder="Nama" id="name" name="name">
+        <p>
+        <input type="email" placeholder="Email" name="email">
+
+        <!-- atribut name="name,dll" itu utk memudahkan pembacaan di URL, atau data2 gtu nnti kayanya -->
+
+        <input type="password" name="password">
+        
+        <input type="number">
+        <div>
+            <label for="number">Color</label>
+            <input type="color">
+        </div>
+        
+        <button>Kirim</button>
+        <button type="button">Tombol Biasa</button>
+        <button type="submit">Bisa kirim juga</button>
+
+        <input type="button" value="Sebatas button">
+        <input type="submit" value="Bisa kirim juga">
+
+    </form>
+
+    <form action="/order">
+        <h1>Pesanan</h1>
+        <label for="">Bajuu</label>
+        <div>
+            <!-- atribut name harus sama supaya pilih salah satu -->
+            <!-- pake value yg sama dgn namanya, biar masuk sistem -->
+            <input type="radio" name="baju" value="kemeja" checked><label for="">kemeja</label>
+            <input type="radio" name="baju" value="kaos"><label for="">kaos</label>
+        </div>
+
+        <div>
+            <label for="">Ukuran</label>
+
+            <!-- biasanya name sama id sama -->
+            <select name="ukuran" id="ukuran">Ukuran
+                <option value="s" selected>Small</option>
+                <option value="m">Medium</option>
+                <option value="l">Large</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="term">Sesuai Pesanan</label>
+
+            <!-- input checkbox mirip radio bgt -->
+            <input type="checkbox" name="term" id="term" checked value="benar">
+        </div>
+
+        <div>
+            <p>
+                <label for="notes">Catatan</label>
+            </p>
+            <textarea name="notes" id="notes" cols="50" rows="10"></textarea>
+        </div>
+        <button type="submit">Order</button>
+    </form>
+
+    <!-- input type banyak banget, buka di mozilla dev-->
+</body>
+</html>

@@ -1,0 +1,10 @@
+ini branch1, utk experimental feature yg blm pasti bisa didevelop
+
+//Coba dicek apakah akan konflik:
+
+ini branch 2 part 2
+2023 pengen:
+1. Sukses
+2. FIRE
+
+#edit main
